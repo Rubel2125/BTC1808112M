@@ -64,7 +64,7 @@ public class StepDefenation extends BaseTest {
 
 	@Then("^click on home page again$")
 	public void click_on_home_page_again() throws Throwable {
-
+		System.out.println("fhdjohoi");
 	}
 
 }
