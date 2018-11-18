@@ -1,0 +1,130 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Steps To Buy A Coat",
+        "description": "",
+        "id": "buying-a-coat-from-walmart;steps-to-buy-a-coat",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8073823871,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open a browser",
+            "match": {
+              "location": "StepDefenation.open_a_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29558,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "go to walmart.com",
+            "match": {
+              "location": "StepDefenation.go_to_walmart_com()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7150836063,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user type coat in search button",
+            "match": {
+              "location": "StepDefenation.user_type_coat_in_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2362947022,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "select man filter",
+            "match": {
+              "location": "StepDefenation.select_man_filter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6282579440,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on wrangler jacket",
+            "match": {
+              "location": "StepDefenation.click_on_wrangler_jacket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2591331423,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "choose light blue color and medium size",
+            "match": {
+              "location": "StepDefenation.choose_light_blue_color_and_medium_size()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 211349820,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click add to cart",
+            "match": {
+              "location": "StepDefenation.click_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24383,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on the continue shopping button",
+            "match": {
+              "location": "StepDefenation.click_on_the_continue_shopping_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14670,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on home page again",
+            "match": {
+              "location": "StepDefenation.click_on_home_page_again()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Buying A Coat From Walmart",
+    "description": "",
+    "id": "buying-a-coat-from-walmart",
+    "keyword": "Feature",
+    "uri": "/Users/anamulhoque/eclipse-workspace/WalmartMavenCucumberProject/FeatureFile/buyingCoatFromWalmart.Feature"
+  }
+]
